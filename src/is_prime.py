@@ -1,11 +1,11 @@
 import math
 
 def is_prime(n):
-"""
-Returns True if input is a prime number, False if not prime. 
+    """
+    Returns True if input is a prime number, False if not prime. 
 
-Input: an integer
-Output: True or False if prime or not prime, respectively. 
+    Input: an integer
+    Output: True or False if prime or not prime, respectively. 
 
     Examples
     --------
@@ -14,7 +14,7 @@ Output: True or False if prime or not prime, respectively.
     >>> is_prime(n)
     True
 
-"""
+    """
     if n <= 1:
         return False
     for i in range(2, int(math.sqrt(n)) + 1):
